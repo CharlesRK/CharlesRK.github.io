@@ -15,6 +15,5 @@ body {
   color: black;
 }
 #sections a:hover {
-  text-decoration: underline;
   border: 2px solid black;
 }
