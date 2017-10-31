@@ -10,8 +10,10 @@ body {
 #sections a {
   text-decoration: none;
   font-size: 10px;
+  color: black;
 }
 #sections a:hover {
   font-weight: bold;
   text-decoration: underline;
+  border: 4px solid black;
 }
