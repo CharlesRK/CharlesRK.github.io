@@ -4,15 +4,17 @@ body {
   font-family: calibri, arial;
 }
 #sections {
-  margin: auto 0;
+  width: 75%;
+  position: fixed;
+  left: 50%;
+  margin-left: -37.5%;
 }
 #sections a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 17px;
   color: black;
 }
 #sections a:hover {
-  font-weight: bold;
   text-decoration: underline;
-  border: 4px solid black;
+  border: 2px solid black;
 }
