@@ -1,5 +1,17 @@
-  body {
-    margin: 5px;
-    padding: 5px;
-    font-family: calibri, arial;
-  }
+body {
+  margin: 5px;
+  padding: 5px;
+  font-family: calibri, arial;
+}
+#sections {
+  margin: auto;
+  padding: 0px 15px;
+}
+#sections a {
+  text-decoration: none;
+  font-size: 10px;
+}
+#sections a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
