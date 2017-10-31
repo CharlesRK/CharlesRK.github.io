@@ -4,12 +4,11 @@ body {
   font-family: calibri, arial;
 }
 #sections {
-  margin: auto;
-  padding: 0px 15px;
+  margin: auto 0;
 }
 #sections a {
   text-decoration: none;
-  font-size: 10px;
+  font-size: 30px;
   color: black;
 }
 #sections a:hover {
