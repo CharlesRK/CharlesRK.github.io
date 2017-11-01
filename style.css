@@ -1,19 +1,21 @@
 body {
-  margin: 5px;
-  padding: 5px;
+  /* margin: 0;
+  padding: 0; */
   font-family: calibri, arial;
 }
 #sections {
-  width: 75%;
+  width: 100%;
+  height: 5em;
   position: fixed;
   left: 50%;
   margin-left: -37.5%;
 }
 #sections a {
   text-decoration: none;
+  font-weight: bold;
   font-size: 17px;
   color: black;
 }
 #sections a:hover {
-  border: 2px solid black;
+  border-bottom: 2px solid black;
 }
