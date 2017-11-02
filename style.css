@@ -18,3 +18,6 @@ body {
 #sections a:hover {
   border-bottom: 2px solid #fff;
 }
+#sections a#selected {
+  border-bottom: 2px solid #fff;
+}
