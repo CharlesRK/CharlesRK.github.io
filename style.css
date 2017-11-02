@@ -24,3 +24,6 @@ body {
 #sections a#selected {
   border-bottom: 2px solid #fff;
 }
+.description {
+  margin-left: 10px;
+}
