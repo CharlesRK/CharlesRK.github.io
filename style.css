@@ -71,7 +71,7 @@ body {
   .dropdown-content a:hover {
       background-color: #5b5b5b;
   }
-  .dropdown:target .dropdown-content {
+  .dropdown:hover .dropdown-content {
       display: block;
 
   }
