@@ -24,17 +24,16 @@ body {
 #sections a#selected {
   border-bottom: 2px solid #fff;
 }
-
+.description {
+  margin: 0px 20px;
+}
 
 /* If a user is using a small screen or a phone */
-.description {
-  margin-left: 20px;
-}
 .dropdown-content, .dropbtn {
   display: none;
 }
 
-@media only screen and (max-width : 810px) {
+@media only screen and (max-width : 715px) {
   .header, span{
     display: none;
     border-style: none !important;
