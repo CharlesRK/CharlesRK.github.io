@@ -1,9 +1,9 @@
 "use strict";
 
-/* var w=window.innerWidth;
-var h=window.innerHeight;
-
-confirm("Height: " + h + "width: " + w);
-
-Add this in later
-If browser width is less than 810 pixels */
+function hoverOff() {
+    var el = this;
+    var par = el.parentNode;
+    var next = el.nextSibling;
+    par.removeChild(el);
+    setTimeout(function() {par.insertBefore(el, next);}, 0)
+}
