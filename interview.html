@@ -33,12 +33,27 @@
   </style>
 </head>
   <nav id="sections">
-    <a href="index.html">Home</a> <span>|</span>
-    <a href="openings.html">Job Openings</a> <span>|</span>
-    <a href="resume.html">Resume and Opening Letters</a> <span>|</span>
-    <a href="application.html">Application Forms</a> <span>|</span>
-    <a href="presentation-interview.html">Presenting Yourself</a> <span>|</span>
-    <a href="interview.html" id="selected">Successful Interviews</a>
+    <a class="header" id="selected" class="home" href="index.html">Home</a> <span>|</span>
+    <a class="header" href="openings.html">Job Openings</a> <span>|</span>
+    <a class="header" href="resume.html">Resume and Opening Letters</a> <span>|</span>
+    <a class="header" href="application.html">Application Forms</a> <span>|</span>
+    <a class="header" href="presentation-interview.html">Presenting Yourself</a> <span>|</span>
+    <a class="header" href="interview.html">Successful Interviews</a>
+
+    <!-- This is for optimization for mobile. I'm still imporving it. It will work with the @active in the CSS file -->
+
+    <div class="dropdown">
+      <button class="dropbtn"><i id="bars" style="color: white; font-size: 23px; vertical-align: middle; cursor: pointer" class="fa fa-bars"></i></button>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="openings.html">Job Openings</a>
+        <a href="resume.html">Resume and Opening Letters</a>
+        <a href="application.html">Application Forms</a>
+        <a href="presentation-interview.html">Presenting Yourself</a>
+        <a href="interview.html">Successful Interviews</a>
+      </div>
+    </div>
+
   </nav><br/><br/><br/><br/>
 
 <div class="description">
