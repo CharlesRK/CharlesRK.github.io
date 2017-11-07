@@ -34,9 +34,13 @@ body {
 }
 
 @media only screen and (max-width : 715px) {
-  .header, span{
+  .header, span {
     display: none;
     border-style: none !important;
+  }
+  #typed, .typed-cursor {
+    display: inline-block !important;
+    color: #000 !important;
   }
   #sections a:hover {
     border: none;

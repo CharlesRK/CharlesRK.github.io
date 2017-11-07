@@ -6,7 +6,7 @@ var typed = function() {
     strings: ["learn", "get jobs", "make a living"],
     typeSpeed: 150,
     startDelay: 500,
-    backSpeed: 80,
+    backSpeed: 50,
     backDelay: 3000,
     loop: true
   };
