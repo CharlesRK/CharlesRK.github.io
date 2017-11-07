@@ -50,6 +50,10 @@ body {
       display: inline-block;
       border-radius: 5px 5px 0px 0px;
   }
+  button {
+    border: none;
+    background: none;
+  }
   .dropdown {
       position: relative;
       display: inline-block;
