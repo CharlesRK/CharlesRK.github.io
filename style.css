@@ -38,9 +38,15 @@ body {
     display: none;
     border-style: none !important;
   }
-  #typed, .typed-cursor {
+  #typed {
     display: inline-block !important;
     color: #000 !important;
+    z-index: 1000 !important;
+  }
+  .typed-cursor {
+    display: inline-block !important;
+    color: #000 !important;
+    z-index: 1000 !important;
   }
   #sections a:hover {
     border: none;
